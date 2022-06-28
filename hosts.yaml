@@ -1,0 +1,10 @@
+# hostname & platform are the minimum configuration that is needed for hosts.yaml
+---
+example-hostname-01: #<- This can be any name, but keeping it the hostname keeps things neat and easy to understand
+    hostname: example-hostname-01.com   # Can use hostnames
+    platform: 'ios' # Lets Nornir know what internal configs it needs to connect to the device
+
+
+example-hostname-02:
+    hostname: 192.168.0.10              # Or IP addresses
+    platform: 'ios'

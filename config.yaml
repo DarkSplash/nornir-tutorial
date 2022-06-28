@@ -1,0 +1,12 @@
+# host_file is the minimum configuration that is needed for config.yaml
+--- 
+
+inventory:
+    plugin: SimpleInventory
+    options:
+        host_file: "hosts.yaml"
+
+runner:
+    plugin: threaded
+    options:
+        num_workers: 100

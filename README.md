@@ -1,0 +1,2 @@
+# nornir-tutorial
+This repo contains the bare minimum configuration that is needed to start a Nornir script. All of the files contain comments describing why certain steps are being taken or why certain variables are filled out the way they are.
